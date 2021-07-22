@@ -167,7 +167,7 @@
         $("#keywordtoquery").html(querykeyword);
         var lang = $("#gg-lang").val();
         $.ajax({
-            url: "http://suggestqueries.google.com/complete/search",
+            url: "https://suggestqueries.google.com/complete/search",
             jsonp: "jsonp",
             dataType: "jsonp",
             data: {
